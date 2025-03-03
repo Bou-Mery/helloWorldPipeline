@@ -6,7 +6,7 @@ pipeline {
             steps {
                 node {
                     echo '📥 Clonage du dépôt...'
-                    git branch: 'master', url: 'https://github.com/Bou-Mery/piplineHelloWorld.git'
+                    git branch: 'main', url: 'https://github.com/Bou-Mery/piplineHelloWorld.git'
                 }
             }
         }
